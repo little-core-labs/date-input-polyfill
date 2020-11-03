@@ -2,7 +2,7 @@
 [![npm version][npmimg]][npm] [![build status][actionsimg]][actions]
 [![downloads][downloadsimg]][downloads]
 
-Just include this simple script and IE, Firefox, and OS X Safari will support `<input type="date">`, without any dependencies, not even jQuery!
+Just include this simple script and OS X Safari will support `<input type="date">`, without any dependencies, not even jQuery!
 
 Support dynamically created inputs, so can be used in single page applications.
 

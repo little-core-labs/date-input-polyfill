@@ -293,8 +293,8 @@ class Picker {
 
     // Modern event creation.
     try {
-      inputEvent = new Event('input')
-      changeEvent = new Event('change')
+      inputEvent = new Event('input', { bubbles: true, cancelable: false })
+      changeEvent = new Event('change', { bubbles: true, cancelable: false })
     } catch (e) {
       // Old-fashioned way.
       inputEvent = document.createEvent('KeyboardEvent')

@@ -16,6 +16,12 @@ Changes include:
 - Maybe some bug fixes.
 - Automated maintenance and a website: https://little-core-labs.github.io/date-input-polyfill
 
+## Known issues:
+
+- input[type="date"].value returns the formatted date, rather than the standard `YYYY-MM-DD` format.  This is unfortunate and may be addressed at some point.
+- Automatic attachment isn't that reliable inside of react.  This may be improved.
+- Date objects are displayed in the local time zone, which causes date drift by a day sometimes.  Looking into this issue now.
+
 ## Install
 `npm install --save @12core/date-input-polyfill`
 

@@ -1,4 +1,7 @@
 # @12core/date-input-polyfill
+[![npm version][npmimg]][npm] [![build status][actionsimg]][actions]
+[![downloads][downloadsimg]][downloads]
+
 Just include this simple script and IE, Firefox, and OS X Safari will support `<input type="date">`, without any dependencies, not even jQuery!
 
 Support dynamically created inputs, so can be used in single page applications.
@@ -59,3 +62,10 @@ Run `npm start`.
 
 ### Build
 Run `npm run build`
+
+[npmimg]: https://img.shields.io/npm/v/@12core/date-input-polyfill.svg
+[npm]: https://npmjs.org/package/@12core/date-input-polyfill
+[actionsimg]: https://github.com/little-core-labs/date-input-polyfill/workflows/tests/badge.svg
+[actions]: https://github.com/little-core-labs/date-input-polyfill/actions
+[downloadsimg]: http://img.shields.io/npm/dm/@12core/date-input-polyfill.svg
+[downloads]: https://npmjs.org/package/@12core/date-input-polyfill

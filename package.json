@@ -1,5 +1,5 @@
 {
-  "name": "date-input-polyfill",
+  "name": "@12core/date-input-polyfill",
   "version": "2.14.0",
   "description": "Automatically adds datepickers to input[type=date] on IE, Firefox, and OS X Safari.",
   "main": "date-input-polyfill.dist.js",
@@ -22,13 +22,17 @@
     {
       "name": "Joseph Victor Estolas",
       "url": "https://github.com/jvestolas"
+    },
+    {
+      "name": "Bret Comnes",
+      "url": "https://bret.io"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jcgertig/date-input-polyfill.git"
+    "url": "git://github.com/little-core-labs/date-input-polyfill.git"
   },
-  "bugs": "https://github.com/jcgertig/date-input-polyfill/issues",
+  "bugs": "https://github.com/little-core-labs/date-input-polyfill/issues",
   "keywords": [
     "html5",
     "light",
@@ -49,7 +53,7 @@
     "babel-preset-stage-3": "^6.17.0",
     "css-loader": "^0.25.0",
     "eslint": "^3.7.1",
-    "node-sass": "^3.10.1",
+    "node-sass": "^5.0.0",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",

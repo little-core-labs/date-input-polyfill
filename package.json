@@ -86,5 +86,8 @@
     "watch:static": "npm run build:static -- -w",
     "watch:serve": "browser-sync start --server 'dist' --files 'dist'",
     "start": "run-s watch"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3"
   }
 }

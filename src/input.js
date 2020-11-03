@@ -1,6 +1,6 @@
 import thePicker from './picker.js'
 import locales from './locales.js'
-import dateFormat from './dateformat.js'
+import dateFormat from 'dateformat'
 
 export default class Input {
   constructor (input) {

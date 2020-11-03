@@ -1,6 +1,6 @@
 {
   "name": "@12core/date-input-polyfill",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Automatically adds datepickers to input[type=date] on IE, Firefox, and OS X Safari.",
   "main": "dist/date-input-polyfill.umd.js",
   "module": "dist/date-input-polyfill.esm.js",

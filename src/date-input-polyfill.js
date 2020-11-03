@@ -1,6 +1,8 @@
 import './date-input-polyfill.css'
 import Input from './input.js'
 
+export { Input }
+
 const addPickers = () => {
   Input.addPickerToOtherInputs()
   // Check if type="date" is supported.

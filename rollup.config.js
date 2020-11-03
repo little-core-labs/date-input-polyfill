@@ -24,7 +24,8 @@ export default [
         format: 'umd',
         compact: true,
         plugins: [terser()],
-        sourcemap: true
+        sourcemap: true,
+        name: 'dateInputPolyfill'
       }
     ]
   },

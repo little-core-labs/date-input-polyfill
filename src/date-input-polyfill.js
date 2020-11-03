@@ -1,4 +1,4 @@
-import './date-input-polyfill.scss';
+import './date-input-polyfill.css';
 import Input from './input.js';
 
 const addPickers = () => {

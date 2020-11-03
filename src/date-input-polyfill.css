@@ -1,4 +1,4 @@
-@mixin reset() {
+.date-input-polyfill-reset {
   background: #fff;
   color: #000;
   text-shadow: none;
@@ -12,7 +12,7 @@
 }
 
 date-input-polyfill {
-  @include reset();
+  @extend .date-input-polyfill-reset;
   position: absolute !important;
   text-align: center;
   box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.22);
@@ -33,13 +33,14 @@ date-input-polyfill {
     visibility: visible;
   }
 
-  select, table, th, td {
-    @include reset();
+  & select, & table, & th, & td {
+    @extend .date-input-polyfill-reset;
+
     box-shadow: none;
     font-family: 'Lato', Helvetica, Arial, sans-serif;
   }
 
-  select, button {
+  & select, & button {
     border: 0;
     border-radius: 0;
     border-bottom: 1px solid #DADFE1;
@@ -49,17 +50,17 @@ date-input-polyfill {
     -moz-appearance: none;
   }
 
-  .monthSelect-wrapper {
+  & .monthSelect-wrapper {
     width: 55%;
     display: inline-block;
   }
 
-  .yearSelect-wrapper {
+  & .yearSelect-wrapper {
     width: 25%;
     display: inline-block;
   }
 
-  select {
+  & select {
     width: 100%;
 
     &:first-of-type {
@@ -69,7 +70,7 @@ date-input-polyfill {
       -webkit-border-radius: 5px 0 0 0;
     }
   }
-  button {
+  & button {
     width: 20%;
     background: #DADFE1;
     border-radius: 0 5px 0 0;
@@ -81,7 +82,7 @@ date-input-polyfill {
     }
   }
 
-  table {
+  & table {
     border-collapse: separate !important;
     border-radius: 0 0 5px 5px;
     -moz-border-radius: 0 0 5px 5px;
@@ -91,13 +92,13 @@ date-input-polyfill {
     width: 280px;
   }
 
-  th, td {
+  & th, & td {
     width: 32px;
     padding: 4px;
     text-align: center;
     box-sizing: content-box;
   }
-  td[data-day] {
+  & td[data-day] {
     cursor: pointer;
 
 
@@ -105,7 +106,7 @@ date-input-polyfill {
       background: #DADFE1;
     }
   }
-  [data-selected] {
+  & [data-selected] {
     font-weight: bold;
     background: #D8EAF6;
   }

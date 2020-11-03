@@ -1,11 +1,4 @@
 node_modules/
-bower_components/
-*.log
-
-build/
-dist/
-
 .tmp/
-
 .DS_Store
-Thumbs.db
+package-lock.json

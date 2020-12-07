@@ -88,6 +88,6 @@
     "start": "run-s watch"
   },
   "dependencies": {
-    "dateformat": "^3.0.3"
+    "dateformat": "^4.3.1"
   }
 }

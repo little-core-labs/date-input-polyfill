@@ -46,7 +46,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@12core/eslint-config-12core": "^4.0.3",
+    "@12core/eslint-config-12core": "^5.0.0",
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@rollup/plugin-babel": "^5.2.1",
